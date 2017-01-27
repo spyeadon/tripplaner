@@ -28,11 +28,11 @@ router.get('/', (req, res, next) => {
 			restaurants: dbinfo.restaurants,
 			activities: dbinfo.activities
 		});
-	}) 
+	})
 	.catch(next);
 
-	
-	
+
+
 });
 
 module.exports = router;

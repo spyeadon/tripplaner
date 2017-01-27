@@ -1,0 +1,17 @@
+{
+  "name": "bower",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Soren Yeadon <spyeadon@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/spyeadon/tripplanner",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

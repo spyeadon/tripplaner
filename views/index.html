@@ -1,17 +1,10 @@
-<!doctype html>
+{% extends 'layout.html' %}
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Trip Planner</title>
+	{% block title %} Trip Planner {% endblock %}
 
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+{% block content %}
 
-</head>
-
-<body>
 <span>Hotels:</span>
 <select>
 	{% for hotel in hotels %}
@@ -31,6 +24,4 @@
 	{% endfor %}
 </select>
 
-
-</body>
-</html>
+{% endblock %}
