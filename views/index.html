@@ -12,8 +12,24 @@
 </head>
 
 <body>
-
-hello!
+<span>Hotels:</span>
+<select>
+	{% for hotel in hotels %}
+	<option>{{hotel.name}}</option>
+	{% endfor %}
+</select>
+<span>Restaurants:</span>
+<select>
+	{% for restaurant in restaurants %}
+	<option>{{restaurant.name}}</option>
+	{% endfor %}
+</select>
+<span>Activities</span>
+<select>
+	{% for activity in activities %}
+	<option>{{activity.name}}</option>
+	{% endfor %}
+</select>
 
 
 </body>
